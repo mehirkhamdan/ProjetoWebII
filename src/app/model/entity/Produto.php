@@ -86,17 +86,17 @@ class Produto
     /**
      * @param mixed $drescricao
      */
-    public function setDrescricao($drescricao)
+    public function setDescricao($descricao)
     {
-        $this->drescricao = $drescricao;
+        $this->drescricao = $descricao;
     }
 
     /**
      * @param mixed $prercoCusto
      */
-    public function setPrercoCusto($prercoCusto)
+    public function setPrercoCusto($precoCusto)
     {
-        $this->prercoCusto = $prercoCusto;
+        $this->prercoCusto = $precoCusto;
     }
 
     /**
