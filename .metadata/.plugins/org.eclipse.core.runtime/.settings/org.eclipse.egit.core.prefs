@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=/home/superior/git/repository/.git\:/home/superior/git/ProjetoWebII/.git\:/var/www/html/ProjetoWebII/ProjetoWebII/.git\:
+GitRepositoriesView.GitDirectories.relative=/home/superior/git/repository/.git\:/home/superior/git/ProjetoWebII/.git\:ProjetoWebII/.git\:
+RepositorySearchDialogSearchPath=/home/superior/git
+eclipse.preferences.version=1
