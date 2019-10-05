@@ -3,5 +3,8 @@
 		"psr-4" : {
 			"app\\" : "src/app/"
 		}
+	},
+	"require" : {
+		"slim/slim" : "4.0.0"
 	}
 }
