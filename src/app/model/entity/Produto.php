@@ -3,14 +3,41 @@ namespace src\app\model\entity;
 
 class Produto
 {
+    /*@id
+     * Colunm(type="integer", nullabe=false)
+     * @GenerateValue(strategy="Auto"
+     */
+       
     private $idProduto;
+    /*
+     * @Colunm(type="string", length=50,nullabe=False)
+     */
     private $nome;
+    /**
+     * @Column(type="string", length=150, options={"default":null})
+     */
     private $descricao;
+    /**
+     * @Column(type="float", nullable=false, options={"default":0})
+     */
     private $precoCusto;
+    /**
+     * @Column(type="float", nullable=false, options={"default":0})
+     */
     private $precoVenda;
+    /**
+     * @Column(type="string", length=50, nullable=false, options={"default":"Fornecedor"})
+     */
     private $fornecedor;
+    /**
+     * @Column(type="string", length=15, nullable=false, options={"default":"Tipo"})
+     */
     private $tipo;
+    /**
+     * @Column(type="string", length=50, nullable=false, options={"default":"ATIVO"})
+     */
     private $status;
+    
     /**
      * @return mixed
      */
